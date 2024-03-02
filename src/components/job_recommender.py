@@ -17,7 +17,7 @@ import src.notebook.skills_extraction as skills_extraction
 jd_df=pd.read_csv(r'C:\Users\padal\project\Job-Recommendation-System\src\data\jd_structured_data.csv')
 
 # Load the extracted resume skills:
-file_path=r'C:\Users\padal\project\Job-Recommendation-System\utilities\resumes\My_Resume.pdf'
+file_path=r'C:\Users\padal\project\Job-Recommendation-System\utilities\resumes\CV.pdf'
 skills=[]
 skills.append(' '.join(word for word in skills_extraction.skills_extractor(file_path)))
 
