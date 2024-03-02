@@ -14,7 +14,7 @@ from docx import Document
 import src.notebook.skills_extraction as skills_extraction
 
 # Load dataset:
-jd_df=pd.read_csv(r'C:\Users\padal\project\Job-Recommendation-System\src\data\jd_unstructured_data.csv')
+jd_df=pd.read_csv(r'C:\Users\padal\project\Job-Recommendation-System\src\data\jd_structured_data.csv')
 
 # Load the extracted resume skills:
 file_path=r'C:\Users\padal\project\Job-Recommendation-System\utilities\resumes\CV.pdf'
