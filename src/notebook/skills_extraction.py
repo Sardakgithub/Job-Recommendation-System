@@ -10,7 +10,7 @@ from spacy.matcher import Matcher
 import csv
 
 # Read skills from CSV file
-file_path=r'C:\Users\Admin\ML_Projects\Job_Recommendation_System\Job-Recommendation-System\src\data\skills.csv'
+file_path=r'C:\Users\padal\project\Job_Recommendation_System\Job-Recommendation-System\src\data\skills.csv'
 with open(file_path, 'r') as file:
     csv_reader = csv.reader(file)
     skills = [row for row in csv_reader]
